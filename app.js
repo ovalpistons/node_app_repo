@@ -7,7 +7,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Merry Christmas and a Happy New Year!');
+  res.end('Seasons greetings!');
 });
 
 //TODO @ovalpistons do something
