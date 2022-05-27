@@ -1,7 +1,7 @@
 const http = require('http');
 
 //no idea what I'm doing
-const hostname = 'ec2-3-93-191-42.compute-1.amazonaws.com';
+const hostname = '127.0.0.1'; //'ec2-3-93-191-42.compute-1.amazonaws.com';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
